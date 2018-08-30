@@ -1,5 +1,5 @@
 //instead of creating multiple Shopper class objects which have the same shopping list create one object that has all the list
-// use full  when everything cannot be put in a constructor
+// useful  when everything cannot be put in a constructor
 
 let scoutPrototype = require("./scout_prototype");
 

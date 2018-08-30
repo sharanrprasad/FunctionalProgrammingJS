@@ -24,6 +24,7 @@ class GoldenInventoryItem {
 }
 
 
+
 //same
 class DiamondInventoryItem {
 
