@@ -9,6 +9,7 @@ class Store {
         this.subscribers.push(observer);
     }
 
+
     sale(discount) {
         this.subscribers.forEach(observer => observer.notify(this.name, discount));
     }

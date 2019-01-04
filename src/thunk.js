@@ -1,4 +1,5 @@
 //thunk is a function without any arguments. Arguments are hard coded
+//
 function addAsync (x,y,cb) {
     setTimeout(cb(x+y),1000);
 }
@@ -22,7 +23,7 @@ function makeThunk(fn) {
         fn.apply(null,args);
     }
 //arguments is a local variable avilable inside a function but it is not exaclty an array
-} 
+}
 
 var addThunk = makeThunk(addAsync,2,3);
 addThunk((num) => console.log(num));
