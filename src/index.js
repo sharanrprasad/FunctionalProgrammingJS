@@ -27,4 +27,19 @@ let newArr =  lodash.map(arr,num => num * num);
 line(newArr);
 
 
+function formatDate(userDate) {
+  // format from M/D/YYYY to YYYYMMDD
+  let date = new Date(userDate);
+  let year = date.getFullYear().toString();
+  let month = date.getMonth().toString();
+  if(month.length === 1){
+    month = "0"+month;
+  }
 
+  let day = date.getDay().toString();
+  return year + month + day
+}
+
+"a".toLowerCase()
+
+console.log(formatDate("12/31/2014"));

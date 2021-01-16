@@ -16,4 +16,5 @@ class Maybe {
   }
 }
 
-
+//Functors must satisfy two important laws
+//1 -

@@ -27,7 +27,7 @@ const locationUpper = R.compose(
   R.map(val => val.location)
 );
 
-//Or call the runIO method. here the main value present in the string is given back
+//Or call the runIO method. here the main value present in the IO object is given back
 console.log(locationTwice(address).$value());
 
 //Convert an IO of Maybe to a Maybe
